@@ -8,6 +8,7 @@ export const Demo = () => {
 
 	return (
 		<div className="container">
+			<h1>IF YOU CAN SEE THIS , YOU ARE LOGGED IN!!!</h1>
 			<ul className="list-group">
 				{store.demo.map((item, index) => {
 					return (
